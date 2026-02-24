@@ -47,6 +47,10 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+        <dependency>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+        </dependency>
         <!-- Testes (JUnit 5, Mockito, etc) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
